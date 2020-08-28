@@ -3753,6 +3753,12 @@ input, select, textarea {
 
 		}
 
+	.resume embed {
+    position: relative;
+    width: 100%;
+    height: 500px;
+	}
+
 /* Main */
 
 	#main {
