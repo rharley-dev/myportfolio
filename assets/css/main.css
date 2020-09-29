@@ -4718,7 +4718,9 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   top: 0.75rem;
   right: 0.75rem;
   border: 0;
-  color: #ffffff;
+	color: #ffffff;
+	background-color: grey;
+	border-radius: 5px;
   font-family: 'Source Sans Pro', Helvetica, sans-serif;
   font-size: 0.9rem;
   font-weight: 900;
