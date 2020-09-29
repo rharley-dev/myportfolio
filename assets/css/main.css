@@ -3889,17 +3889,21 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 
 .resume h2 {
 	text-align: left;
-	margin-bottom: 10px;
+	margin-bottom: 1vw;
 }
 
 .resume span {
 	float: left;
-	color: #18bfef;
-	font-weight: bold;
+	font-size: 1.2vw;
 }
 
 .resume p {
 	margin-bottom: 0px;
+	font-size: 1.2vw;
+}
+
+.resume li {
+	font-size: 1.2vw;
 }
 
 .resume-header {
@@ -3909,7 +3913,7 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 
 .resume-name {
 	grid-column: 1;
-	font-size: 40px;
+	font-size: 4vw;
 }
 
 .resume-contact {
@@ -3920,7 +3924,53 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 }
 
 .resume-title {
-	padding-top: 20px;
+	padding-top: 3vw;
+	font-size: 2.5vw;
+}
+
+.resume-skills {
+	grid-template-columns: 33% 33% 33%;
+	display: grid;
+}
+
+.col-1{
+	grid-column: 1;
+	text-align: center;
+	list-style: none;
+}
+
+.col-1 li {
+	border: 1px solid black;
+	margin: 0.7vw;
+	background-color: lightgray;
+	font-size: 1.2vw;
+}
+
+.col-2{
+	grid-column: 2;
+	text-align: center;
+	list-style: none;
+}
+
+.col-2 li {
+	border: 1px solid black;
+	margin-top: 0.7vw;
+	margin-bottom: 0.7vw;
+	background-color: lightgray;
+	font-size: 1.2vw;
+}
+
+.col-3{
+	grid-column: 3;
+	text-align: center;
+	list-style: none;
+}
+
+.col-3 li {
+	border: 1px solid black;
+	margin: 0.7vw;
+	background-color: lightgray;
+	font-size: 1.2vw;
 }
 
 /* Main */
