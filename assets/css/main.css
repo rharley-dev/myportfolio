@@ -3883,94 +3883,112 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 .resume {
   border: 1px solid black;
   border-radius: 5px;
-	padding: 50px;
-	width: 100%;
+  padding: 50px;
+  width: 100%;
 }
 
 .resume h2 {
-	text-align: left;
-	margin-bottom: 1vw;
+  text-align: left;
+  margin-bottom: 1vw;
 }
 
 .resume span {
-	float: left;
-	font-size: 1.2vw;
+  float: left;
+  font-size: 1.2vw;
 }
 
 .resume p {
-	margin-bottom: 0px;
-	font-size: 1.2vw;
+  margin-bottom: 0px;
+  font-size: 1.2vw;
 }
 
 .resume li {
-	font-size: 1.2vw;
+  font-size: 1.2vw;
 }
 
 .resume-header {
-	grid-template-columns: 30% 70%;
+  grid-template-columns: 30% 70%;
   display: grid;
 }
 
 .resume-name {
-	grid-column: 1;
-	font-size: 4vw;
+  grid-column: 1;
+  font-size: 4vw;
 }
 
 .resume-contact {
-	grid-column: 2;
-	text-align: right;
-	vertical-align: top;
-	list-style: none;
+  grid-column: 2;
+  text-align: right;
+  vertical-align: top;
+  list-style: none;
 }
 
 .resume-title {
-	padding-top: 3vw;
-	font-size: 2.5vw;
+  padding-top: 3vw;
+  margin-bottom: 0px !important;
+  font-size: 2.5vw;
 }
 
 .resume-skills {
-	grid-template-columns: 33% 33% 33%;
-	display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  display: grid;
 }
 
-.col-1{
-	grid-column: 1;
-	text-align: center;
-	list-style: none;
+.col-1 {
+  grid-column: 1;
+  padding: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+  list-style: none;
 }
 
 .col-1 li {
-	border: 1px solid black;
-	margin: 0.7vw;
-	background-color: lightgray;
-	font-size: 1.2vw;
+  margin: 0.7vw;
+  background-color: lightgray;
+  font-size: 1.2vw;
 }
 
-.col-2{
-	grid-column: 2;
-	text-align: center;
-	list-style: none;
+.col-2 {
+  grid-column: 2;
+  padding: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+  list-style: none;
 }
 
 .col-2 li {
-	border: 1px solid black;
-	margin-top: 0.7vw;
-	margin-bottom: 0.7vw;
-	background-color: lightgray;
-	font-size: 1.2vw;
+  margin-top: 0.7vw;
+  margin-bottom: 0.7vw;
+  background-color: lightgray;
+  font-size: 1.2vw;
 }
 
-.col-3{
-	grid-column: 3;
-	text-align: center;
-	list-style: none;
+.col-3 {
+  grid-column: 3;
+  padding: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+  list-style: none;
 }
 
 .col-3 li {
-	border: 1px solid black;
-	margin: 0.7vw;
-	background-color: lightgray;
-	font-size: 1.2vw;
+  margin: 0.7vw;
+  background-color: lightgray;
+  font-size: 1.2vw;
+}
+
+.col-4 {
+  grid-column: 4;
+  padding: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+  list-style: none;
+}
+
+.col-4 li {
+  margin: 0.7vw;
+  background-color: lightgray;
+  font-size: 1.2vw;
 }
 
 /* Main */
@@ -4718,9 +4736,9 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   top: 0.75rem;
   right: 0.75rem;
   border: 0;
-	color: #ffffff;
-	background-color: grey;
-	border-radius: 5px;
+  color: #ffffff;
+  background-color: grey;
+  border-radius: 5px;
   font-family: 'Source Sans Pro', Helvetica, sans-serif;
   font-size: 0.9rem;
   font-weight: 900;
